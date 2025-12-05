@@ -57,9 +57,9 @@ export default function Footer() {
               <Image
                 src="/images/frontier-restoration-logo-horizontal.png"
                 alt="Frontier Restoration LLC"
-                width={300}
-                height={80}
-                className="h-16 w-auto mx-auto object-contain"
+                width={500}
+                height={150}
+                className="h-32 sm:h-40 w-auto mx-auto object-contain"
               />
             </Link>
           </div>
