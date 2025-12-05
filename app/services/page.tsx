@@ -77,20 +77,12 @@ export default function ServicesPage() {
                   service.imageSide === "right" ? "lg:col-start-2" : ""
                 }`}
               >
-                {/* Placeholder for service image - replace with actual image when available */}
-                {/* 
                 <Image
-                  src={`/services/${service.imagePlaceholder}.jpg`}
+                  src={`/images/${service.imagePlaceholder}.png`}
                   alt={service.title}
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-lg"
                 />
-                */}
-                <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-                  <span className="text-white/30 text-2xl font-bold uppercase text-center px-4">
-                    {service.imagePlaceholder.replace("-", " ")}
-                  </span>
-                </div>
               </div>
 
               {/* Text Content Section */}

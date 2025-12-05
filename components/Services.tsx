@@ -48,20 +48,12 @@ export default function Services() {
             >
               {/* Service Image */}
               <div className="relative h-64 sm:h-72 bg-gradient-to-br from-gray-800 to-gray-900">
-                {/* Placeholder for service image - replace with actual image when available */}
-                {/* 
                 <Image
-                  src={`/services/${service.imagePlaceholder}.jpg`}
+                  src={`/images/${service.imagePlaceholder}.png`}
                   alt={`${service.title}`}
                   fill
                   className="object-cover"
                 />
-                */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white/30 text-3xl font-bold uppercase text-center px-4">
-                    {service.imagePlaceholder.replace("-", " ")}
-                  </span>
-                </div>
               </div>
 
               {/* Service Content */}
