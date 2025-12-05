@@ -6,26 +6,34 @@ export default function Footer() {
       {/* Newsletter Signup Section */}
       <section className="bg-yellow-400 py-12 sm:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 text-center md:text-left">
-                Get Updates And Stay Connected - Subscribe To Our Newsletter
-              </h2>
-              <form className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+              {/* Text Section */}
+              <div className="text-center lg:text-left">
+                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 leading-tight">
+                  Get Updates And Stay Connected
+                </h2>
+                <p className="text-xl sm:text-2xl text-gray-800 font-medium">
+                  Subscribe To Our Newsletter
+                </p>
+              </div>
+              
+              {/* Form Section */}
+              <form className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                 <input
                   type="text"
                   placeholder="Name"
-                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px]"
+                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px] bg-white"
                 />
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px]"
+                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px] bg-white"
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px]"
+                  className="px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-600 min-w-[150px] bg-white"
                 />
                 <button
                   type="submit"
