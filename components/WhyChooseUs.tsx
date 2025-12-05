@@ -63,11 +63,11 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-white">
+    <section className="py-16 sm:py-20 lg:py-24 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-400 mb-4">
             Why Choose Us?
           </h2>
         </div>
@@ -80,17 +80,17 @@ export default function WhyChooseUs() {
               className="text-center flex flex-col items-center"
             >
               {/* Icon */}
-              <div className="mb-6 p-4 bg-blue-100 rounded-full text-blue-600">
+              <div className="mb-6 p-4 bg-gray-900 rounded-full text-yellow-400 border border-gray-800">
                 {feature.icon}
               </div>
 
               {/* Title */}
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">
                 {feature.title}
               </h3>
 
               {/* Description */}
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
                 {feature.description}
               </p>
             </div>

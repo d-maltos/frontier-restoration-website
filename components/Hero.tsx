@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Hero Background Image */}
       <div className="absolute inset-0 z-0">
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-gray-900/80 z-10" />
+        <div className="absolute inset-0 bg-black/80 z-10" />
         {/* Placeholder gradient - replace with actual hero image when available */}
         {/* To use an actual image, uncomment below and add image to /public/hero-image.jpg */}
         {/* 
@@ -20,7 +20,7 @@ export default function Hero() {
           quality={90}
         />
         */}
-        <div className="w-full h-full bg-gradient-to-br from-blue-600 via-blue-700 to-gray-800" />
+        <div className="w-full h-full bg-gradient-to-br from-gray-900 via-black to-gray-900" />
       </div>
 
       {/* Hero Content */}
@@ -62,7 +62,7 @@ export default function Hero() {
             {/* Request Inspection Button */}
             <Link
               href="/contact"
-              className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-gray-100 text-blue-900 font-bold text-lg rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 active:scale-95"
+              className="w-full sm:w-auto px-8 py-4 bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-lg rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105 active:scale-95"
             >
               Request Inspection
             </Link>

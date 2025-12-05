@@ -30,11 +30,11 @@ const services: Service[] = [
 
 export default function Services() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
+    <section className="py-16 sm:py-20 lg:py-24 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-400 mb-4">
             Services
           </h2>
         </div>
@@ -44,10 +44,10 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              className="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col border border-gray-800"
             >
               {/* Service Image */}
-              <div className="relative h-64 sm:h-72 bg-gradient-to-br from-blue-600 to-gray-700">
+              <div className="relative h-64 sm:h-72 bg-gradient-to-br from-gray-800 to-gray-900">
                 {/* Placeholder for service image - replace with actual image when available */}
                 {/* 
                 <Image
@@ -67,19 +67,19 @@ export default function Services() {
               {/* Service Content */}
               <div className="p-6 sm:p-8 flex-grow flex flex-col">
                 {/* Title */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
                   {service.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-600 mb-6 text-base sm:text-lg leading-relaxed flex-grow">
+                <p className="text-gray-300 mb-6 text-base sm:text-lg leading-relaxed flex-grow">
                   {service.description}
                 </p>
 
                 {/* CTA Button */}
                 <Link
                   href="/contact"
-                  className="block w-full text-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-colors duration-200 mt-auto"
+                  className="block w-full text-center px-6 py-3 bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded-lg transition-colors duration-200 mt-auto"
                 >
                   Get Help Now
                 </Link>
