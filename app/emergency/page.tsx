@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "24/7 Emergency Response | Frontier Restoration LLC | Fairbanks",
+  title: "Emergency | Frontier Restoration LLC",
   description:
     "24/7 emergency restoration services in Fairbanks, Alaska. Fast response within 2 hours. Water damage, fire damage, and mold remediation emergency response.",
   keywords: [

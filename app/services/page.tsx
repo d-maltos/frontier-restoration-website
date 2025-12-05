@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services | Water Damage, Fire Damage & Mold Remediation Fairbanks",
+  title: "Services | Frontier Restoration LLC",
   description:
     "Comprehensive restoration services in Fairbanks, Alaska: Water damage mitigation, fire damage restoration, mold remediation, structural drying, and more. 24/7 emergency response.",
   keywords: [

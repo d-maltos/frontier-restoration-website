@@ -4,7 +4,7 @@ import Services from "@/components/Services";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 
 export const metadata = {
-  title: "Water Damage Fairbanks | Mold Remediation | Fire Damage Restoration",
+  title: "Home | Frontier Restoration LLC | Fairbanks' Fast, Trusted Restoration Experts",
   description:
     "Frontier Restoration LLC: 24/7 emergency water damage, fire damage, and mold remediation services in Fairbanks, Alaska. IICRC certified, licensed restoration contractor serving Fairbanks, North Pole, Eielson, and Fort Wainwright.",
   keywords: [
