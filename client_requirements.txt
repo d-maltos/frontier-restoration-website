@@ -1,0 +1,186 @@
+FRONTIER RESTORATION — WEBSITE REQUIREMENTS
+===========================================
+
+1. ABOVE-THE-FOLD FIRST IMPRESSION (HOME PAGE HERO)
+---------------------------------------------------
+Goal: Capture attention in the first 3 seconds and drive immediate calls.
+
+Required Elements:
+- Bold hero photo showing water, mold, fire damage, or crew in action
+- Primary headline:
+  "Fairbanks’ Fast, Trusted Restoration Experts"
+- Sub-headline:
+  "24/7 Emergency Response • Licensed • IICRC Certified"
+- Primary Call-to-Action (CTA) buttons:
+  - Call Now (907) 888-8888
+  - Request Inspection
+
+
+2. SERVICES OVERVIEW (SCANNABLE CATEGORIES)
+-------------------------------------------
+Services must be broken into clean, organized categories with:
+- Strong service headline
+- Short, clear description
+- Real photos of crew or jobs
+- CTA button: "Get Help Now"
+
+A. Mitigation:
+- Water Damage Mitigation
+- Structural Drying (IICRC S500)
+- Mold Remediation (IICRC S520)
+- Sewage Backup Cleanup
+
+B. Restoration / Rebuild:
+- Drywall, Trim, Flooring
+- Painting
+- Cabinet & Finish Work
+
+C. Specialty Services:
+- Air Quality Testing
+- Microbial Growth Inspections
+- Fire & Smoke Damage
+- Ozone Deodorization
+- Content Cleaning
+
+
+3. TRUST BUILDERS & SOCIAL PROOF
+--------------------------------
+Trust is critical for conversion.
+
+Required:
+- Before & After gallery
+- Client testimonials
+- CompanyCam job gallery integration
+- Google reviews (live widget)
+- Certification badges:
+  - IICRC
+  - EPA Lead
+  - Contractor License
+- Insurance-friendly language:
+  "We work directly with all insurance carriers."
+
+
+4. LOCAL FAIRBANKS AUTHORITY & GEO-TARGETING
+--------------------------------------------
+Website must clearly reflect local expertise.
+
+Required:
+- Service area coverage:
+  "Serving Fairbanks, North Pole, Eielson, Fort Wainwright, & surrounding areas"
+- References to:
+  - Permafrost challenges
+  - Sub-zero humidity impacts
+- Alaska-specific visuals:
+  - Company trucks
+  - Local crew
+  - Fairbanks landmarks
+
+
+5. EMERGENCY RESPONSE SECTION
+------------------------------
+Designed for high-stress emergency users.
+
+Required:
+- "What to do right now" checklist
+- Response time guarantee
+- Call Now button pinned on screen (mobile + desktop)
+- Emergency response process outline:
+  1. Immediate Phone Assessment
+  2. On-site Within __ Hours
+  3. Moisture Mapping
+  4. Extraction & Drying
+  5. Photo Documentation for Insurance
+
+
+6. ABOUT US PAGE (HUMAN + PROFESSIONAL)
+--------------------------------------
+Show who the company really is.
+
+Must include:
+- Company background
+- Mission & Core Values:
+  - Honesty
+  - Integrity
+  - Respect
+  - Accountability
+- Photos of the Frontier Restoration team
+- Story of how the company was built locally
+
+
+7. HIGH-CONVERSION CONTACT PAGE
+--------------------------------
+Make it frictionless for customers to reach out.
+
+Required:
+- 24/7 phone number
+- Business email
+- Physical address
+- Simple contact form
+- Service area map
+- Social media links
+
+
+8. EDUCATIONAL BLOG / RESOURCE CENTER
+-------------------------------------
+Used for SEO and authority building.
+
+Example blog topics (Alaska-specific):
+- How Cold Weather Affects Water Mitigation in Fairbanks
+- Signs of Microbial Growth in Cold Climate Homes
+- Humidity Control Tips for Alaskan Winters
+- Insurance Claim Checklist for Water Damage
+
+
+9. INSURANCE NAVIGATION & EDUCATION
+-----------------------------------
+Help clients understand and trust the claims process.
+
+Must include:
+- Step-by-step insurance guide
+- Frequently Asked Questions (FAQ)
+- Explanation of documentation methods:
+  - Photos
+  - Moisture readings
+  - Psychrometrics
+  - Xactimate estimates
+- Clear statement:
+  "We work directly with adjusters so you don’t have to."
+
+
+10. MOBILE-FIRST PERFORMANCE & UX
+----------------------------------
+Majority of users are on phones.
+
+Requirements:
+- Fast load times
+- Clear, visible buttons
+- Large, legible text
+- Easy tap-to-call functionality
+
+
+11. SEARCH ENGINE OPTIMIZATION (SEO)
+-----------------------------------
+Target keywords:
+- Water damage Fairbanks
+- Mold remediation Fairbanks
+- Fire damage cleanup Fairbanks
+- Restoration contractor Fairbanks
+
+Technical SEO:
+- Structured data (Local Business schema)
+- Optimized page titles & meta descriptions
+
+
+12. STRONG, LOCAL BRANDING
+-------------------------
+Brand must feel legitimate, professional, and local.
+
+Requirements:
+- Frontier Restoration color scheme
+- High-quality photos of real jobs
+- Trucks, uniforms, and logos featured
+- Clean, blue-collar professional design aesthetic
+
+Overall Goal:
+When users land on this site they should immediately think:
+"This is a real, trusted, local restoration company."
