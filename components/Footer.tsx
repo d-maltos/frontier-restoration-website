@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -53,10 +54,13 @@ export default function Footer() {
           {/* Logo */}
           <div className="text-center mb-8">
             <Link href="/" className="inline-block">
-              <span className="text-yellow-400 text-2xl font-bold">
-                FRONTIER RESTORATION
-              </span>
-              <p className="text-gray-400 text-sm mt-1">FAIRBANKS ALASKA</p>
+              <Image
+                src="/images/frontier-restoration-logo-vertical.png"
+                alt="Frontier Restoration LLC"
+                width={250}
+                height={150}
+                className="h-24 w-auto mx-auto object-contain"
+              />
             </Link>
           </div>
 

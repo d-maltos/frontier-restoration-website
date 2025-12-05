@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navigation() {
@@ -19,10 +20,15 @@ export default function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <span className="text-yellow-400 text-xl font-bold">
-              FRONTIER RESTORATION
-            </span>
+          <Link href="/" className="flex items-center h-12">
+            <Image
+              src="/images/frontier-restoration-logo-horizontal.png"
+              alt="Frontier Restoration LLC"
+              width={200}
+              height={48}
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
