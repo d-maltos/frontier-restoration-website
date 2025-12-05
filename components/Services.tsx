@@ -4,43 +4,27 @@ import Image from "next/image";
 interface Service {
   title: string;
   description: string;
-  items: string[];
   imagePlaceholder: string;
 }
 
 const services: Service[] = [
   {
-    title: "Mitigation",
-    description: "Fast response to prevent further damage and protect your property.",
-    items: [
-      "Water Damage Mitigation",
-      "Structural Drying (IICRC S500)",
-      "Mold Remediation (IICRC S520)",
-      "Sewage Backup Cleanup",
-    ],
-    imagePlaceholder: "mitigation",
+    title: "Water Damage Restoration",
+    description:
+      "Our team of experts is proficient in identifying all types of water damage, both visible and hidden. Utilizing advanced tools such as moisture detectors and hygrometers, we conduct thorough inspections to ensure no damage goes undetected, whether it is in walls, floors, or ceilings. This gives you peace of mind that your property is fully evaluated.",
+    imagePlaceholder: "water-damage",
   },
   {
-    title: "Restoration / Rebuild",
-    description: "Complete restoration services to bring your property back to pre-loss condition.",
-    items: [
-      "Drywall, Trim, Flooring",
-      "Painting",
-      "Cabinet & Finish Work",
-    ],
-    imagePlaceholder: "restoration",
+    title: "Fire Damage Restoration",
+    description:
+      "Our certified experts conduct a comprehensive assessment of the total fire damage, meticulously evaluating the various effects caused by smoke, intense heat, and ash residue left behind. This thorough analysis ensures that all aspects of the damage are identified and addressed appropriately.",
+    imagePlaceholder: "fire-damage",
   },
   {
-    title: "Specialty Services",
-    description: "Advanced services for comprehensive property care and safety.",
-    items: [
-      "Air Quality Testing",
-      "Microbial Growth Inspections",
-      "Fire & Smoke Damage",
-      "Ozone Deodorization",
-      "Content Cleaning",
-    ],
-    imagePlaceholder: "specialty",
+    title: "Mold Remediation",
+    description:
+      "Frontier Restoration LLC is committed to providing a comprehensive solution for mold remediation that not only tackles existing mold issues but also helps prevent future occurrences. Our approach is designed to protect both the health of building occupants and the integrity of residential and commercial properties.",
+    imagePlaceholder: "mold-remediation",
   },
 ];
 
@@ -51,72 +35,46 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Our Services
+            Services
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive restoration services for water, mold, fire, and more.
-            We&apos;re here to help restore your property quickly and professionally.
-          </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <div
               key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
               {/* Service Image */}
-              <div className="relative h-48 sm:h-56 bg-gradient-to-br from-blue-600 to-gray-700">
+              <div className="relative h-64 sm:h-72 bg-gradient-to-br from-blue-600 to-gray-700">
                 {/* Placeholder for service image - replace with actual image when available */}
                 {/* 
                 <Image
                   src={`/services/${service.imagePlaceholder}.jpg`}
-                  alt={`${service.title} services`}
+                  alt={`${service.title}`}
                   fill
                   className="object-cover"
                 />
                 */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white/30 text-4xl font-bold uppercase">
-                    {service.imagePlaceholder}
+                  <span className="text-white/30 text-3xl font-bold uppercase text-center px-4">
+                    {service.imagePlaceholder.replace("-", " ")}
                   </span>
                 </div>
               </div>
 
               {/* Service Content */}
               <div className="p-6 sm:p-8 flex-grow flex flex-col">
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                {/* Title */}
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 mb-4 text-base sm:text-lg">
+
+                {/* Description */}
+                <p className="text-gray-600 mb-6 text-base sm:text-lg leading-relaxed flex-grow">
                   {service.description}
                 </p>
-
-                {/* Service Items List */}
-                <ul className="space-y-2 mb-6 flex-grow">
-                  {service.items.map((item, itemIndex) => (
-                    <li
-                      key={itemIndex}
-                      className="flex items-start text-gray-700 text-sm sm:text-base"
-                    >
-                      <svg
-                        className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
 
                 {/* CTA Button */}
                 <Link
@@ -133,4 +91,3 @@ export default function Services() {
     </section>
   );
 }
-
