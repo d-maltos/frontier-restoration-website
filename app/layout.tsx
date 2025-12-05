@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import MobileCallButton from "@/components/MobileCallButton";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Navigation />
         {children}
+        <Footer />
         <MobileCallButton />
       </body>
     </html>
