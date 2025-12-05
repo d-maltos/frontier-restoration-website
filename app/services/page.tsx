@@ -1,3 +1,24 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Services | Water Damage, Fire Damage & Mold Remediation Fairbanks",
+  description:
+    "Comprehensive restoration services in Fairbanks, Alaska: Water damage mitigation, fire damage restoration, mold remediation, structural drying, and more. 24/7 emergency response.",
+  keywords: [
+    "water damage restoration Fairbanks",
+    "fire damage restoration Fairbanks",
+    "mold remediation Fairbanks",
+    "structural drying Fairbanks",
+    "sewage backup cleanup Fairbanks",
+  ],
+  openGraph: {
+    title: "Services | Frontier Restoration LLC",
+    description:
+      "Comprehensive restoration services in Fairbanks, Alaska: Water damage, fire damage, and mold remediation.",
+    url: "https://frontierrestorationllc.com/services",
+  },
+};
+
 export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-black">

@@ -1,4 +1,23 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "24/7 Emergency Response | Frontier Restoration LLC | Fairbanks",
+  description:
+    "24/7 emergency restoration services in Fairbanks, Alaska. Fast response within 2 hours. Water damage, fire damage, and mold remediation emergency response.",
+  keywords: [
+    "emergency water damage Fairbanks",
+    "24/7 restoration Fairbanks",
+    "emergency fire damage Fairbanks",
+    "emergency mold remediation Fairbanks",
+  ],
+  openGraph: {
+    title: "24/7 Emergency Response | Frontier Restoration LLC",
+    description:
+      "24/7 emergency restoration services in Fairbanks, Alaska. Fast response within 2 hours.",
+    url: "https://frontierrestorationllc.com/emergency",
+  },
+};
 
 export default function EmergencyPage() {
   const emergencyChecklist = [

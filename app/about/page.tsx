@@ -1,4 +1,17 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Frontier Restoration LLC | Fairbanks Restoration Experts",
+  description:
+    "Learn about Frontier Restoration LLC, your trusted local restoration company in Fairbanks, Alaska. IICRC certified team with over 10 years of experience in water damage, fire damage, and mold remediation.",
+  openGraph: {
+    title: "About Us | Frontier Restoration LLC",
+    description:
+      "Learn about Frontier Restoration LLC, your trusted local restoration company in Fairbanks, Alaska.",
+    url: "https://frontierrestorationllc.com/about",
+  },
+};
 
 export default function AboutPage() {
   return (
