@@ -55,11 +55,11 @@ export default function Footer() {
           <div className="text-center mb-8">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/frontier-restoration-logo-vertical.png"
+                src="/images/frontier-restoration-logo-horizontal.png"
                 alt="Frontier Restoration LLC"
-                width={250}
-                height={150}
-                className="h-24 w-auto mx-auto object-contain"
+                width={300}
+                height={80}
+                className="h-16 w-auto mx-auto object-contain"
               />
             </Link>
           </div>
