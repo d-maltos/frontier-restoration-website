@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
 import MobileCallButton from "@/components/MobileCallButton";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <Navigation />
         {children}
         <MobileCallButton />
       </body>
