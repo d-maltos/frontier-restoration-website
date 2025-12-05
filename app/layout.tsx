@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import MobileCallButton from "@/components/MobileCallButton";
 
 export const metadata: Metadata = {
   title: "Frontier Restoration LLC | Fairbanks' Fast, Trusted Restoration Experts",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="antialiased">
+        {children}
+        <MobileCallButton />
+      </body>
     </html>
   );
 }
