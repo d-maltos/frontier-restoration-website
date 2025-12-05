@@ -7,6 +7,11 @@ import MobileCallButton from "@/components/MobileCallButton";
 export const metadata: Metadata = {
   title: "Frontier Restoration LLC | Fairbanks' Fast, Trusted Restoration Experts",
   description: "24/7 Emergency Response • Licensed • IICRC Certified. Serving Fairbanks, North Pole, Eielson, Fort Wainwright & surrounding areas.",
+  icons: {
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
+    apple: "/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({
