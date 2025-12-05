@@ -228,7 +228,7 @@ export default function ContactPage() {
                 {/* Social Media Links */}
                 <div className="flex items-center gap-4 pt-4 border-t border-white/20">
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/people/Frontier-Restoration-LLC/61574070232093/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition-colors"
@@ -243,7 +243,7 @@ export default function ContactPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/frontier.restoration/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition-colors"
