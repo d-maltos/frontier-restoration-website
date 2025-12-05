@@ -18,15 +18,15 @@ export default function Navigation() {
   return (
     <nav className="bg-black border-b border-gray-800 sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 min-h-[80px]">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center h-20">
+          <Link href="/" className="flex items-center">
             <Image
-              src="/images/frontier-restoration-logo-vertical.png"
+              src="/images/frontier-restortation-icon.png"
               alt="Frontier Restoration LLC"
-              width={200}
-              height={80}
-              className="h-16 w-auto object-contain"
+              width={60}
+              height={60}
+              className="h-12 w-12 object-contain"
               priority
             />
           </Link>
